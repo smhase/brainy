@@ -1,7 +1,7 @@
 # brainy
 Motivated ChatBot
 
-Facebook page : [https://www.facebook.com/Brainy-Chatbot-209298143133602](LINK)
+Facebook page : [LINK](https://www.facebook.com/Brainy-Chatbot-209298143133602)
 1) Copy the brainy frontend into XAMPP -> htdocs folder
 Rename the folder to "brainy"
 
