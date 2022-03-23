@@ -1,0 +1,216 @@
+.chats{
+	display:flex;
+	flex-direction:column;
+	
+	height:100%;
+	
+}
+
+.chats-ul{
+	list-style-type:none;
+	padding:0px;
+}
+.chats-item{
+	padding:0px;
+	margin:0px;
+	cursor:pointer;
+}
+.chats-item div{ /*Actual view*/
+	padding:10px 5px 5px 10px;
+	text-align:left;
+	font-size:20px;
+	border-bottom:1px solid #bdbdbd;
+	//background-color:#dddddd;
+	height:80px;
+	width:100%;
+}
+.chats-item .chat_text, .chats-item .admin_name{
+	font-size:10px;
+}
+.chats-item div:hover{
+	//background-color:#bdbdbd;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.head-title{
+	background-color:pink;
+	text-align:center;
+}
+.selected{
+	background-color: #26a69a;
+	color: #eafaf9;
+}
+.chat_new{
+	color:green;
+	margin-left:20px;
+}
+.row{
+	height:90vh;
+	padding:0px;
+}
+.chatframe{
+	padding:0px;
+}
+.current-chat-head {
+	padding-left:15px;
+	border-bottom:1px solid black;
+	flex:none;
+}
+.current-chat-area {
+    overflow-y: scroll;
+	height: calc(100% - 120px);
+	//height:300px;
+	flex:none;
+	background-color: lightblue;
+	font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
+}
+.current-chat-footer {
+    position: fixed;
+    bottom: 0;
+	flex:1;
+}
+.current-chat-li{
+	//list-style-type:none;
+}
+.current-chat-ul{
+	list-style-type:none;
+}
+.current-chat-message-wrapper{
+	padding: 1em;
+	text-align: left;
+	line-height: 1.5em;
+	width:55vw;
+	border-radius:10px;
+	background-color:white;
+	margin:2px;
+}
+.current-chat-user-message{
+	font-style:bold;
+}
+.bg-green{
+	color:green;
+}
+.bg-blue{
+	color:blue;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.appeared {
+  opacity: 1;
+}
+.full{
+	width:65vw;
+}
+#loading_div{
+	display:none;
+}
+.new-chat{
+	color:green;
+	font-weight: bold;
+}
+
+
+#mLeftMenu{
+	border:3px solid #444;
+	outline:3px solid #444;
+	outline-style: ridge;
+}
+
+#mRightMenu{
+	border:3px solid #444;
+	outline:3px solid #444;
+	outline-style: ridge;
+}
+.mHeadings{
+	padding: 5px;
+	border-radius: 10px;
+}
+
+
+body{
+  
+    height: 100vh; 
+    margin: 0px;
+    overflow: hidden;
+}
+
+
+#monthsAccountBody{
+    min-height: 70vh;
+}
+
+#drumListBody{
+    
+    min-height: 35vh;
+}
+#engineerListBody{
+    
+    min-height: 35vh;
+}
+
+a{
+	color: #074E8C;
+}
+
+.scrollbar-month
+{
+	float: right;
+	height: 70vh;
+	overflow-y: scroll;
+}
+
+.scrollbar-drum
+{
+	float: right;
+	height: 35vh;
+	overflow-y: scroll;
+}
+
+.scrollbar-engineer
+{
+	float: right;
+	height: 30vh;
+	overflow-y: scroll;
+}
+
+.force-overflow
+{
+	min-height: 600px;
+	padding:5px;
+}
+
+#wrapper
+{
+	text-align: center;
+	margin: auto;
+}
+
+
+
+
+/*
+ *  STYLE 3
+ */
+
+#style-3::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+#style-3::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+	border-radius: 10px;
+}
+
